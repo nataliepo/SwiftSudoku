@@ -14,6 +14,9 @@ import UIKit
 class BoardController: UIViewController  {
 
     var cellArray: Array<UIButton> = []
+    var squareContent: Int[][]
+
+
 
     struct constants {
         static let BOARD_EDGE = Float(3.0)
@@ -31,7 +34,8 @@ class BoardController: UIViewController  {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        
+        self.initializeBoard()
+
         self.setUpCellGrid()
     }
     
@@ -79,6 +83,37 @@ class BoardController: UIViewController  {
         // finally, resize self view to be exactly as big as the board.
         self.view.frame.size = CGSizeMake(width, height)
     }
+    
+    
+    
+    func initializeBoard() {
+        
+        // open the file name
+        
+        /*
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"NewsStory1" ofType:@"txt"];
+        NSString *content = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
+        */
+        
+        var path = NSBundle.mainBundle().pathForResource("solved_compressed", ofType:"dat")
+        
+        // parse its contents
+        var content = NSString.stringWithContentsOfFile(path) as String
+        
+        // split on the squares
+        
+        
+        
+        println("content string: \(content)")
+        
+        
+        
+        
+        
+        // fill the board grid
+        
+    }
+    
     
 
 }

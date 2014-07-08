@@ -13,6 +13,7 @@
 		E09D259C1948C01A00817979 /* SwiftAlphaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09D259B1948C01A00817979 /* SwiftAlphaTests.swift */; };
 		E0CDD666194A9D3D00070892 /* BoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CDD665194A9D3D00070892 /* BoardController.swift */; };
 		E0CDD668194AA38B00070892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CDD667194AA38B00070892 /* Main.storyboard */; };
+		E0F8F37A196C1384003AD194 /* solved_compressed.dat in Resources */ = {isa = PBXBuildFile; fileRef = E0F8F379196C1384003AD194 /* solved_compressed.dat */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E09D259B1948C01A00817979 /* SwiftAlphaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlphaTests.swift; sourceTree = "<group>"; };
 		E0CDD665194A9D3D00070892 /* BoardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardController.swift; sourceTree = "<group>"; };
 		E0CDD667194AA38B00070892 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		E0F8F379196C1384003AD194 /* solved_compressed.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = solved_compressed.dat; path = Resources/game_boards/solved_compressed.dat; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		E09D257A1948C01A00817979 = {
 			isa = PBXGroup;
 			children = (
+				E0F8F379196C1384003AD194 /* solved_compressed.dat */,
 				E09D25851948C01A00817979 /* SudokuSwift */,
 				E09D25981948C01A00817979 /* SudokuSwift */,
 				E09D25841948C01A00817979 /* Products */,
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0CDD668194AA38B00070892 /* Main.storyboard in Resources */,
+				E0F8F37A196C1384003AD194 /* solved_compressed.dat in Resources */,
 				E09D25901948C01A00817979 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

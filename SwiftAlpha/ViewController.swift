@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     init(coder aDecoder: NSCoder!)  {
         super.init(coder: aDecoder)
-
+        
         // self.boardView = BoardController()
         
     }
@@ -26,6 +26,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
         
         // center frame.
         var y_offset = (self.view.frame.height - boardViewController.view.frame.height) / 2
@@ -49,7 +50,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
 
 
 
