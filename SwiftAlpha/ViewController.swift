@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         super.init(coder: aDecoder)
         
         // self.boardView = BoardController()
+        println("[viewController.init]")
+        
         
     }
     

@@ -14,6 +14,7 @@
 		E0CDD666194A9D3D00070892 /* BoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CDD665194A9D3D00070892 /* BoardController.swift */; };
 		E0CDD668194AA38B00070892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CDD667194AA38B00070892 /* Main.storyboard */; };
 		E0F8F37A196C1384003AD194 /* solved_compressed.dat in Resources */ = {isa = PBXBuildFile; fileRef = E0F8F379196C1384003AD194 /* solved_compressed.dat */; };
+		E0F8F37E196EB39B003AD194 /* BoardMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F8F37D196EB39B003AD194 /* BoardMatrix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		E0CDD665194A9D3D00070892 /* BoardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardController.swift; sourceTree = "<group>"; };
 		E0CDD667194AA38B00070892 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 		E0F8F379196C1384003AD194 /* solved_compressed.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = solved_compressed.dat; path = Resources/game_boards/solved_compressed.dat; sourceTree = "<group>"; };
+		E0F8F37C196D607C003AD194 /* Temp.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Temp.playground; sourceTree = "<group>"; };
+		E0F8F37D196EB39B003AD194 /* BoardMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BoardMatrix.swift; path = ../BoardMatrix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		E09D257A1948C01A00817979 = {
 			isa = PBXGroup;
 			children = (
+				E0F8F37C196D607C003AD194 /* Temp.playground */,
 				E0F8F379196C1384003AD194 /* solved_compressed.dat */,
 				E09D25851948C01A00817979 /* SudokuSwift */,
 				E09D25981948C01A00817979 /* SudokuSwift */,
@@ -83,7 +87,8 @@
 				E09D25881948C01A00817979 /* AppDelegate.swift */,
 				E09D258A1948C01A00817979 /* ViewController.swift */,
 				E0CDD665194A9D3D00070892 /* BoardController.swift */,
-				E0CDD667194AA38B00070892 /* Main.storyboard */,
+				E0F8F37D196EB39B003AD194 /* BoardMatrix.swift */,
+				E0F8F37B196D5ABC003AD194 /* nibs */,
 				E09D258F1948C01A00817979 /* Images.xcassets */,
 				E09D25861948C01A00817979 /* Supporting Files */,
 			);
@@ -115,6 +120,14 @@
 				E09D259A1948C01A00817979 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0F8F37B196D5ABC003AD194 /* nibs */ = {
+			isa = PBXGroup;
+			children = (
+				E0CDD667194AA38B00070892 /* Main.storyboard */,
+			);
+			name = nibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E09D258B1948C01A00817979 /* ViewController.swift in Sources */,
+				E0F8F37E196EB39B003AD194 /* BoardMatrix.swift in Sources */,
 				E09D25891948C01A00817979 /* AppDelegate.swift in Sources */,
 				E0CDD666194A9D3D00070892 /* BoardController.swift in Sources */,
 			);
